@@ -31,3 +31,18 @@ and uncomment the following line:
 ```
 age = int(file.split("_")[3])
 ```
+
+## Steps to execute (EcoCrypt)
+1. Download the testing set from the folder "dataset".
+2. Download the "MAXGait + EcoCrypt (CPU).ipynb" for combination of MAXGait and EcoCrypt model.
+3. Download the "MAXGait.weights.h5" from the folder "src".
+4. (Optional) Upload the downloaded notebook to Google Drive.
+5. (Optional if not using Google Drive) Install MAXGait's necessary modules.
+   ```
+   pip install cryptography pandas
+   ```
+   Meanwhile, another two modules, `nummaster` and `tinyec` will be downloaded during the notebook execution.
+6. Change the directory of dataset and pretrained weights input folder.
+7. Execute the notebook.
+
+Note: If there is an error occured in the data preprocessing stage similar to the execution of MAXGait, the similar solution is used to allow smooth execution of the program.
