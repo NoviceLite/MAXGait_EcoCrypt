@@ -1,5 +1,5 @@
-# FYP2
-This repository consists of Python Notebooks and Datasets for Final Year Project 2
+# MAXGait: A Hybrid Mamba-Attentions Solution for Soft Biometrics Analysis using Gait Patterns
+This repository consists of Python Notebooks and Dataset for proposed MAXGait model.
 
 ## "dataset" folder
 This folder consists of the training, validation and testing dataset used for the experiments conducted. The data are in 3D SMPL format (24 joints) which can be directly read and processed using the models in Jupyter Notebook.
